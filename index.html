@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Berkshire+Swash&family=Original+Surfer&family=Press+Start+2P&family=Reggae+One&display=swap');
+    </style>
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="legend">
+                <h1 class="lg">CADASTRO DE DESENVOLVEDOR</h1>
+                <h3 class="lg1">Insira suas informações:</h3>
+            </div>
+            <div class="info">
+                <form>
+                    <div class="formulario">
+
+                        <label><strong>Nome:</strong><br>
+                            <input type="text" name="nome" class="nome inputwh" value="Nome" />
+                        </label>
+
+                        <label><strong>Data de nascimento:</strong><br>
+                            <input type="date" name="date" class="date inputwh" />
+                        </label>
+                        <label><strong>E-mail:</strong><br>
+                            <input type="email" name="email" class="email inputwh" value="E-mail" />
+                        </label>
+                        <label><strong>Telefone:</strong><br>
+                            <input type="tel" name="tel" class="tel inputwh" value="(xx) xxxxx-xxxx " />
+                        </label>
+                        <label><strong>Estado:</strong><br>
+                            <select class="estado inputwh">
+                                <option selected disabled value="selecione">Selecione</option>
+                                <option>Acre</option>
+                                <option>Alagoas</option>
+                                <option>Amapá</option>
+                                <option>Amazonas</option>
+                                <option>Bahia</option>
+                                <option>Ceará</option>
+                                <option>Distrito Federal</option>
+                                <option>Espírito Santo</option>
+                                <option>Goiás</option>
+                                <option>Maranhão</option>
+                                <option>Mato Grosso</option>
+                                <option>Mato Grosso do Sul</option>
+                                <option>Minas Gerais</option>
+                                <option>Pará</option>
+                                <option>Paraíba</option>
+                                <option>Paraná</option>
+                                <option>Pernambuco</option>
+                                <option>Piauí</option>
+                                <option>Rio de Janeiro</option>
+                                <option>Rio Grande do Norte</option>
+                                <option>Rio Grande do Sul</option>
+                                <option>Rondônia</option>
+                                <option>Roraima</option>
+                                <option>Santa Catarina</option>
+                                <option>São Paulo</option>
+                                <option>Sergipe</option>
+                                <option>Tocatins</option>
+                            </select>
+                        </label>
+                        <label><strong>Qual a área de sua preferência?</strong><br>
+                            <label class="pref">
+                                <input type="radio" name="prefer" class="prefer" value="Front-end" /> Front-end
+                            </label>
+                            <label class="pref">
+                                <input type="radio" name="prefer" class="prefer" value="Back-end" /> Back-end
+                            </label>
+                            <label class="pref">
+                                <input type="radio" name="prefer" class="prefer" value="Fullstack" /> Fullstack
+                            </label>
+                        </label>
+                        <label> <strong>Senioridade:</strong><br>
+                            <select class="senioridade inputwh">
+                                <option selected disabled value="selecione">Selecione</option>
+                                <option>Junior</option>
+                                <option>Pleno</option>
+                                <option>Sênior</option>
+                            </select>
+                        </label>
+                        <label><strong>Quais tecnologias você mais utiliza?</strong><br>
+                            <label>
+                                <input type="checkbox" name="html" class="tecnologia"> Html
+                            </label>
+                            <label>
+                                <input type="checkbox" name="css" class="tecnologia"> Css
+                            </label>
+                            <label>
+                                <input type="checkbox" name="js" class="tecnologia"> JavaScript
+                            </label>
+                            <label>
+                                <input type="checkbox" name="php" class="tecnologia"> PHP
+                            </label>
+                            <label>
+                                <input type="checkbox" name="c" class="tecnologia"> C
+                            </label>
+                            <label>
+                                <input type="checkbox" name="csharp" class="tecnologia"> C#
+                            </label>
+                            <label>
+                                <input type="checkbox" name="cmais" class="tecnologia"> C++
+                            </label>
+                            <label>
+                                <input type="checkbox" name="poo" class="tecnologia"> POO
+                            </label>
+                            <label>
+                                <input type="checkbox" name="python" class="tecnologia"> Python
+                            </label>
+                        </label>
+                        <label><strong>Link do seu portfólio:</strong><br>
+                            <input type="url" name="url" class="url inputwh" value="Link do portfólio" />
+                        </label>
+                        <label> <strong>Deixe aqui a sua mensagem:</strong><br>
+                            <textarea class="mesage inputwh" name="mesage"></textarea>
+                        </label>
+                        <button class="submit" type="submit">Cadastrar</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
